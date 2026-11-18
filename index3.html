@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My EC2 Web Server</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 650px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #cbd5e1;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .status {
+            display: inline-block;
+            background: #16a34a;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="status">● Server Online</div>
+
+        <h1>Welcome to My EC2 Server!</h1>
+
+        <p>
+            Your website is successfully hosted on
+            Amazon Linux 2023 using the Nginx web server.
+        </p>
+
+        <div class="card">
+            <h2>AWS Cloud Deployment</h2>
+            <p>
+                Instance: Amazon EC2<br>
+                Operating System: Amazon Linux 2023<br>
+                Web Server: Nginx
+            </p>
+        </div>
+
+        <footer>
+            <p>Successfully deployed | Powered by AWS EC2</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
